@@ -34,8 +34,9 @@ body{
 }
 
 .sketches img{
-    height: 400px;
-    width: 600px;
+    height: 400px auto;
+    width: 600px auto !;
+    padding: 10PX;
 }
 
 .tx{
@@ -75,5 +76,8 @@ body{
         }
 
 .im{
-    height:100px;
+    height:100px auto;
+}
+.uk-grid>*{
+    padding: unset !important ;
 }
